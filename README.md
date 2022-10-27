@@ -57,7 +57,7 @@ Understand the factors contributng to the failure of the dispatch system
 ### Design Solution
 
 High-level system architecture 
-- [Report of the Inquiry Into The London Ambulance Service (1993)]	(http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/las/lascase0.9.pdf), pg 27
+- [Report of the Inquiry Into The London Ambulance Service (1993)](http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/las/lascase0.9.pdf), pg 27
 
 ![High-level Architecture](high-level.png)
 
@@ -67,7 +67,7 @@ High-level system architecture
 #### Failure
 
 A model of the system failure
-- [Human error and information systems failure: the case of the London ambulance service computer-aided despatch system project]	(http://bedford-computing.co.uk/learning/wp-content/uploads/2016/09/beynon-davies.pdf), pg 11
+- [Human error and information systems failure: the case of the London ambulance service computer-aided despatch system project](http://bedford-computing.co.uk/learning/wp-content/uploads/2016/09/beynon-davies.pdf), pg 11
 
 ![Model of System Failure](failure.png)
 
@@ -79,6 +79,6 @@ Can be used to demonstrate real-world example of ystem failure caused by multipl
 ### Other notes and resources
 
 - [A Comedy of Errors: the London Ambulance Service case study, IWSSD (1996)](http://www0.cs.ucl.ac.uk/staff/a.finkelstein/papers/lascase.pdf)
-- [Report of the Inquiry Into The London Ambulance Service (1993)]	(http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/las/lascase0.9.pdf)
-- [Understanding Failure: The London Ambulance Service Disaster, John Dob (2007)]	(https://link.springer.com/chapter/10.1007/978-1-84628-626-1_7)
-- [Human error and information systems failure: the case of the London ambulance service computer-aided despatch system project]	(http://bedford-computing.co.uk/learning/wp-content/uploads/2016/09/beynon-davies.pdf)
+- [Report of the Inquiry Into The London Ambulance Service (1993)](http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/las/lascase0.9.pdf)
+- [Understanding Failure: The London Ambulance Service Disaster, John Dob (2007)](https://link.springer.com/chapter/10.1007/978-1-84628-626-1_7)
+- [Human error and information systems failure: the case of the London ambulance service computer-aided despatch system project](http://bedford-computing.co.uk/learning/wp-content/uploads/2016/09/beynon-davies.pdf)
