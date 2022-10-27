@@ -4,42 +4,62 @@ This case study is part of the Open Design Case Study project. This work is lice
 
 ### Citation
 
-Add citation to the case studies, if any (e.g. Zenodo)
+Human error and information systems failure: the case of the London ambulance service computer-aided despatch system project, Paul Beynon-Davies, 1999
+
 ### Title
 
-Add title here
+Computer-Aided Dispatch System for London Ambulance
 
 ### Objectives
 
-Add objectives of the case study here
+Understand the factors contributng to the failure of the dispatch system
 
 ### Stakeholder
 
-Add a brief description of stakeholder and their roles in the case study
+- Munipical government
+- Information system (IS) developers
+- Ambulance crew
+- Call operators
+- Callers
+- Patients
 
 ### Requirements
 
 #### Description
 
-Add description about the requirements
+- Call taking: Record information about incidents (e.g., location, time, patient condiitons) received through 999 calls
+- Resource identification: Identify available ambulances and their locations
+- Resource dispatch: Dispatch an available ambulance to an active incident case
+
+![Requirement](london-requirement.png)
 
 #### Constraints
 
-Add constraints of the requirements
+- Time from call received to resource dispatched should be less than 3 min 
+- Time from dispatch to arrival at incident scene should be less than 11 min 
 
 #### Quality Attributes
 
-Add any non-functional requirements/quality attributes related to the case study
+- Availability: The system should be available to receive calls at all times
+- Scalability: The system should be able to handle a possible increase in the volume of calls
+- Usability: Call operators should be able to efficiently locate available resources and dispatch them
 
 ### Environment
 
 #### Entities and Assumptions
 
-Add description about the entities/objects associated to the case study, and relevant assumptions related to these entities
+| Entities  | Assumptions  |
+|---|---|
+|  Ambulance | Connected to the GIS system; provides accurate information about its location and availability  |
+| Ambulance crew | Responds to the dispatch request on timely manner  |
+| Operator  | Accurately records the information about the incident from a given call |
 
 ### Design Solution
 
-Add architecture model of the case study, if available
+High-level system architecture [Report of the Inquiry Into The London Ambulance Service (1993)]	(http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/las/lascase0.9.pdf), pg 27
+
+![High-level Architecture](high-level architecture.png)
+
 
 ### Outcome
 
@@ -64,4 +84,7 @@ Add how the materials can be used by educators, such as usage in teaching a cert
 
 ### Other notes and resources
 
-Add any additional notes or resources here. 
+[A Comedy of Errors: the London Ambulance Service case study, IWSSD (1996)](http://www0.cs.ucl.ac.uk/staff/a.finkelstein/papers/lascase.pdf)
+[Report of the Inquiry Into The London Ambulance Service (1993)]	(http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/las/lascase0.9.pdf)
+[Understanding Failure: The London Ambulance Service Disaster, John Dob (2007)]	(https://link.springer.com/chapter/10.1007/978-1-84628-626-1_7)
+[Human error and information systems failure: the case of the London ambulance service computer-aided despatch system project]	(http://bedford-computing.co.uk/learning/wp-content/uploads/2016/09/beynon-davies.pdf)
