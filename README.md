@@ -56,31 +56,25 @@ Understand the factors contributng to the failure of the dispatch system
 
 ### Design Solution
 
-High-level system architecture [Report of the Inquiry Into The London Ambulance Service (1993)]	(http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/las/lascase0.9.pdf), pg 27
+High-level system architecture 
+- [Report of the Inquiry Into The London Ambulance Service (1993)]	(http://www0.cs.ucl.ac.uk/staff/A.Finkelstein/las/lascase0.9.pdf), pg 27
 
-![High-level Architecture](high-level architecture.png)
+![High-level Architecture](high-level.png)
 
 
 ### Outcome
 
-#### Success
-
-Add success stories and describe how they help achieve some of the requirements
-
 #### Failure
 
-Add failure stories and describe what is the root cause(s) of the failure
+A model of the system failure
+- [Human error and information systems failure: the case of the London ambulance service computer-aided despatch system project]	(http://bedford-computing.co.uk/learning/wp-content/uploads/2016/09/beynon-davies.pdf), pg 11
 
-### Lesson Learned
+![Model of System Failure](failure.png)
 
-Add lesson learned from the case study, if any
-
-### Teaching Materials
 
 #### Suggested Usage
 
-Add how the materials can be used by educators, such as usage in teaching a certain concept, general discussion about topics in design, assginments, final exams, etc.
-
+Can be used to demonstrate real-world example of ystem failure caused by multiple intertwined factors. 
 
 ### Other notes and resources
 
